@@ -89,7 +89,11 @@ const UserListApp = () => {
         )
       ) : (
         <p className="text-center text-gray-600 mt-6">
-          Enter valid username (Ervin Howell)...
+          Enter valid username (Ervin Howell)... for moer details{" "}
+          <span className="text-blue-500 underline cursor-pointer">
+            https://jsonplaceholder.typicode.com/users
+          </span>
+          .
         </p>
       )}
     </div>
